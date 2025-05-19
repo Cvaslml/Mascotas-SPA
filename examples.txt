@@ -1,0 +1,10 @@
+http://127.0.0.1:8000/api/mascotas/  # Listado de todas las mascotas
+http://127.0.0.1:8000/api/mascotas/1/  # Consultar la mascota con ID 1
+http://127.0.0.1:8000/api/mascotas/?especie=perro  # Filtrar mascotas por especie
+http://127.0.0.1:8000/api/mascotas/?sexo=hembra  # Filtrar mascotas por sexo
+http://127.0.0.1:8000/api/mascotas/?edad__gte=3&edad__lte=12  # Filtrar por edad entre 3 y 12
+http://127.0.0.1:8000/api/mascotas/?raza__icontains=siam  # Filtrar por raza que contenga “siam”
+http://127.0.0.1:8000/api/mascotas/?ordering=edad  # Ordenar por edad ascendente
+http://127.0.0.1:8000/api/mascotas/?ordering=-fecha_registro  # Ordenar por fecha de registro descendente
+http://127.0.0.1:8000/api/mascotas/?page=2  # Página 2 del listado
+http://127.0.0.1:8000/api/mascotas/?page_size=10  # Cambiar tamaño de página a 10 resultados
