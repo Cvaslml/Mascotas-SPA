@@ -10,4 +10,4 @@ http://127.0.0.1:8000/api/mascotas/?page=2  # Página 2 del listado
 http://127.0.0.1:8000/api/mascotas/?page_size=10  # Cambiar tamaño de página a 10 resultados
 
 
-ip: http://143.244.176.130:8060/
+ip: http://143.244.176.130:8060/  DigitalOshell
